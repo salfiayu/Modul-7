@@ -87,7 +87,7 @@ int main()
 ```
 
 > Screenshoot 
-> ![Screenshot Soal 1](https://github.com/salfiayu/Modul-6/blob/main/Modul%206/Screenshoot/Screenshot%20(125).png)
+> ![Screenshot Soal 1](https://github.com/salfiayu/Modul-7/blob/main/Modul%207/screenshoot/Screenshot%20(136).png)
 
 Program ini membuat struktur data stack menggunakan linked list, di mana push() menambahkan data ke bagian atas stack, pop() mengambil dan menghapus data teratas, dan show() menampilkan seluruh isi stack dari atas ke bawah; pada fungsi main, program menambahkan data 10, 20, dan 30 ke stack, menampilkannya, kemudian melakukan pop satu elemen dan menampilkan sisa isi stack.
 
@@ -124,9 +124,6 @@ void pushAscending(Stack &S, infotype x);
 #endif
 
 ```
-
-> Screenshoot  
-> ![Screenshot Soal 1](https://github.com/salfiayu/Modul-6/blob/main/Modul%206/Screenshoot/Screenshot%20(127).png)
 
 Header file STACK_H ini berfungsi untuk mendefinisikan struktur dan fungsi-fungsi Stack agar bisa digunakan di file C++ lain misalnya main.cpp dan stack.cpp.
 
@@ -191,9 +188,6 @@ void pushAscending(Stack &S, infotype x) {
 
 
 ```
-
-> Sreenshoot 
-> ![Screenshot Soal 2](https://github.com/salfiayu/Modul-6/blob/main/Modul%206/Screenshoot/Screenshot%20(128).png)
 
 File ini mengimplementasikan operasi stack seperti membuat stack, push, pop, menampilkan isi, membalik isi stack, dan push dengan urutan ascending menggunakan array dan stack sementara.
 
@@ -260,7 +254,7 @@ int main() {
 ```
 
 > Sreenshoot 
-> ![Screenshot Soal 3](https://github.com/salfiayu/Modul-6/blob/main/Modul%206/Screenshoot/Screenshot%20(129).png)
+> ![Screenshot Soal 3](https://github.com/salfiayu/Modul-7/blob/main/Modul%207/screenshoot/Screenshot%20(145).png)
 
 Program ini berfungsi untuk mencoba seluruh operasi stack, mulai dari push, pop, printInfo, balikStack, dan pushAscending; program membuat stack, melakukan berbagai kombinasi push-pop, menampilkan hasilnya, membalik stack, lalu menguji kembali stack dengan mode ascending serta data lain untuk memastikan semua fungsi berjalan dengan benar.
 
